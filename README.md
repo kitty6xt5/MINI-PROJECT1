@@ -1,2 +1,4 @@
 # MINI-PROJECT1
-In this project we are going to use Ubuntu CLI terminal to Ubuntu Desktop on AWS EC2 Instance.
+##In this project, we are going to use the Ubuntu CLI terminal to connect to an Ubuntu Desktop environment running on an AWS EC2 instance.
+
+
