@@ -82,6 +82,8 @@ vim ~/.vnc/xstartup
 ```
 ### Remove all the script inside the file and copy paste the script given below:
 
+![filescript](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/9e3c2393-84cc-4cfa-8ff8-81be0ca31bd3)
+
 ```
 #!/bin/sh
 
@@ -119,6 +121,8 @@ vncserver :1
 ```
 ### Ensure that the AWS EC2 instance is configured to allow inbound connections using VNC. Access the AWS EC2 console and navigate to the security group associated with your instance. Modify the inbound rules by adding a new entry:
 ### Match the inbound rules according to the picture given below.
+
+![inboundd](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/18f820cf-b017-47f1-9262-3bf4e1a40d60)
 
 ### Now we will Launch Remmina Remote Desktop Client From our Desktop.
 
