@@ -100,4 +100,23 @@ vncserver -kill :1
 vncserver :1
 
 ```
+### Ensure that the AWS EC2 instance is configured to allow inbound connections using VNC. Access the AWS EC2 console and navigate to the security group associated with your instance. Modify the inbound rules by adding a new entry:
+### Match the inbound rules according to the picture given below.
 
+### Now we will Launch Remmina Remote Desktop Client From our Desktop.
+Remmina is a popular open-source remote desktop client application for Linux-based operating systems. It allows users to connect to and interact with remote desktops or servers from their local machine.
+### Launch Remmina.
+### Choose the connection type as ‘VNC’
+### Enter your EC2 url along with the number as ```:1```.
+
+For example- If my EC2 Connecting url is ```ec2-52-66-120-136.ap-south-1.compute.amazonaws.com``` then i will use this url with ```:1```
+
+```
+ec2-52-66-120-136.ap-south-1.compute.amazonaws.com:1
+
+```
+
+### Now we  have to Enter the password we provided during the installation of the tightVNC Server.
+
+### After Entering the password click on connect...
+### Congrats,Our EC2 instance is now set up to run Ubuntu Desktop successfully.
