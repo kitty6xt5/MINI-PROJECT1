@@ -74,6 +74,8 @@ Create a configuration file to define the session properties. Create a file name
 
 ### open the configuration file in vim:
 
+![xstartup](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/30147f2e-7e43-4c95-af2b-228522cd63c1)
+
 ```
 vim ~/.vnc/xstartup
 
@@ -103,6 +105,8 @@ gnome-terminal &
 ### Now,Restart the VNC server by killing it first and then starting it up.
 ### type:
 
+![vncserverkill](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/e188e75a-8fea-4b6e-8191-6abdfaf82736)
+
 ```
 vncserver -kill :1
 
@@ -117,9 +121,16 @@ vncserver :1
 ### Match the inbound rules according to the picture given below.
 
 ### Now we will Launch Remmina Remote Desktop Client From our Desktop.
+
+![remmina](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/5ac5456d-1162-43a5-912b-933c0bdba888)
+
 Remmina is a popular open-source remote desktop client application for Linux-based operating systems. It allows users to connect to and interact with remote desktops or servers from their local machine.
 ### Launch Remmina.
-### Choose the connection type as ‘VNC’
+### Choose the connection type as ```VNC```
+
+![vnc](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/aea15ee9-9e7e-41d6-ac4b-cd3adbfc2105)
+
+
 ### Enter your EC2 url along with the number as ```:1```.
 
 For example- If my EC2 Connecting url is ```ec2-52-66-120-136.ap-south-1.compute.amazonaws.com``` then i will use this url with ```:1```
@@ -131,5 +142,10 @@ ec2-52-66-120-136.ap-south-1.compute.amazonaws.com:1
 
 ### Now we  have to Enter the password we provided during the installation of the tightVNC Server.
 
+![entervncpasswd](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/3c2959f0-b0e6-4b28-b30b-a1b2959a7c8a)
+
 ### After Entering the password click on connect...
+
+![desktop](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/369aeab4-ab61-4527-8afb-b2e85f7a9fce)
+
 ### Congrats,Our EC2 instance is now set up to run Ubuntu Desktop successfully.
