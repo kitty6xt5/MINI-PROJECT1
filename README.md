@@ -10,16 +10,23 @@
 
 ### Launch the instance and connect it through ssh on terminal.
 
+![ssh](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/5b976161-1bea-40d9-97da-b70145abfc20)
+
 ```
 ssh -i "your key" ubuntu@(your publicip).compute-1.amazonaws.com
 ```
 
 ### After connecting the instance, type -
+
+![aptupdate](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/14825858-65a2-4f4d-8b7b-b08ce5606ea4)
+
 ```
 sudo apt update
 ```
 
 ### Once connected to your EC2 instance via SSH, you'll need to install the Ubuntu Desktop environment. Run the following command
+
+![installubuntuu](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/5a612052-781c-4ec3-9996-323b82fc6652)
 
 ```
 sudo apt install ubuntu-desktop
@@ -32,6 +39,8 @@ TightVNC is a cross-platform, open-source remote desktop software application. I
 ### Here's how you can set up TightVNC on your Ubuntu EC2 instance..
 ### type:
 
+![tightvncserver](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/94f7501f-1a88-4619-907c-cc8648e1a13d)
+
 ```
 sudo apt install tightvncserver
 
@@ -39,12 +48,16 @@ sudo apt install tightvncserver
 ### To install several packages associated with the GNOME desktop environment on an Ubuntu system.
 ### type:
 
+![gnome](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/123012ac-f669-498c-9448-ee3802efb2da)
+
 ```
  sudo apt install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
 
 ```
 
 ### Start TightVNC Server:
+
+![vnceserver1](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/ff668041-30a0-4d8a-9aab-d8e057a21af8)
 
 ```
 
