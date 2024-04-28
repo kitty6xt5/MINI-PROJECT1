@@ -18,7 +18,7 @@ ssh -i "your key" ubuntu@(your publicip).compute-1.amazonaws.com
 
 ### After connecting the instance, type -
 
-![aptupdate](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/14825858-65a2-4f4d-8b7b-b08ce5606ea4)
+![aptupdate](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/ff85edd5-fca1-4a72-bc01-8b3b38252c5a)
 
 ```
 sudo apt update
@@ -26,7 +26,7 @@ sudo apt update
 
 ### Once connected to your EC2 instance via SSH, you'll need to install the Ubuntu Desktop environment. Run the following command
 
-![installubuntuu](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/5a612052-781c-4ec3-9996-323b82fc6652)
+![installubuntuu](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/7609db58-25ca-45a5-ade7-5d28ed370932)
 
 ```
 sudo apt install ubuntu-desktop
@@ -39,7 +39,7 @@ TightVNC is a cross-platform, open-source remote desktop software application. I
 ### Here's how you can set up TightVNC on your Ubuntu EC2 instance..
 ### type:
 
-![tightvncserver](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/94f7501f-1a88-4619-907c-cc8648e1a13d)
+![tightvncserver](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/f4547c2e-2467-4abf-a14f-5f6ff02811e2)
 
 ```
 sudo apt install tightvncserver
@@ -48,7 +48,7 @@ sudo apt install tightvncserver
 ### To install several packages associated with the GNOME desktop environment on an Ubuntu system.
 ### type:
 
-![gnome](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/123012ac-f669-498c-9448-ee3802efb2da)
+![gnome](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/8a0811d7-569f-475e-ba20-7f33317e9e85)
 
 ```
  sudo apt install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
@@ -82,7 +82,8 @@ vim ~/.vnc/xstartup
 ```
 ### Remove all the script inside the file and copy paste the script given below:
 
-![filescript](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/9e3c2393-84cc-4cfa-8ff8-81be0ca31bd3)
+![filescript](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/5ec93f51-38e6-4572-b2e6-54ed6f8d3170)
+
 
 ```
 #!/bin/sh
@@ -132,7 +133,7 @@ Remmina is a popular open-source remote desktop client application for Linux-bas
 ### Launch Remmina.
 ### Choose the connection type as ```VNC```
 
-![vnc](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/aea15ee9-9e7e-41d6-ac4b-cd3adbfc2105)
+![vnc](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/8e387e63-f036-4a28-9f87-c6f914d4e229)
 
 
 ### Enter your EC2 url along with the number as ```:1```.
@@ -146,7 +147,7 @@ ec2-52-66-120-136.ap-south-1.compute.amazonaws.com:1
 
 ### Now we  have to Enter the password we provided during the installation of the tightVNC Server.
 
-![entervncpasswd](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/3c2959f0-b0e6-4b28-b30b-a1b2959a7c8a)
+![entervncpasswd](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/127d29af-e1c3-41db-b8d1-19a30e2ecb8d
 
 ### After Entering the password click on connect...
 
