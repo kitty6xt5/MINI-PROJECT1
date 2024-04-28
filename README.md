@@ -10,7 +10,7 @@
 
 ### Launch the instance and connect it through ssh on terminal.
 
-![ssh](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/5b976161-1bea-40d9-97da-b70145abfc20)
+![ssh](https://github.com/kitty6xt5/MINI-PROJECT1/assets/141032592/9af0867b-e460-4644-8b11-b08fba77b8be)
 
 ```
 ssh -i "your key" ubuntu@(your publicip).compute-1.amazonaws.com
